@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+    margin: 0;
+}
+/*პლანშეტი,ტაბლეტი*/
+@media (min-width:481px) and (max-width:768px){
+    body{
+        background-color: orange;
+    }
+}
+/*დესკტოპ კომპიუტერი*/
+@media (min-width:769px){
+    body{
+        background-color: green;
+    }
+}
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: blueviolet;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.topnav a:hover{
+    background-color: beige;
+    color: black;
+}
+.topnav a.active{
+    background-color: blue
+    chocolate;
+}
+.topnav .icon{
+    display: none;
+}
